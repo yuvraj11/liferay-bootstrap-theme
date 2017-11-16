@@ -6,12 +6,12 @@
 
 <section class="portlet container" id="portlet_$portlet_id">
 	<header class="portlet-topper row">
-	<div class="span9">
+	<div class="col-sm-9 col-md-9">
 <!-- 		<h3 class="portlet-title"> -->
 <!-- 			$theme.iconPortlet() <span class="portlet-title-text">$portlet_title</span> -->
 <!-- 		</h3> -->
 	</div>
-	<div class="span3">
+	<div class="col-sm-3 col-md-3">
 		<menu class="portlet-topper-toolbar" id="portlet-topper-toolbar_$portlet_id" type="toolbar">
 			#if ($portlet_display.isShowBackIcon())
 				<a href="$portlet_back_url" class="portlet-icon-back">#language("return-to-full-page")</a>
@@ -26,7 +26,7 @@
 	</header>
 
 	<div class="portlet-content row">
-		<div class="span12">
+		<div class="col-sm-12 col-md-12">
 			$portlet_display.writeContent($writer)
 		</div>
 	</div>

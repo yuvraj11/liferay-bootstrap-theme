@@ -5,5 +5,5 @@
 	<compatibility>
 		<version>6.1.1+</version>
 	</compatibility>
-	<theme id="liferay-bootstrap-theme" name="liferay-bootstrap-theme" />
+	<theme id="liferay-bootstrap-theme" name="Liferay Bootstrap Theme" />
 </look-and-feel>

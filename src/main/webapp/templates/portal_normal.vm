@@ -24,7 +24,7 @@ $theme.include($top_head_include)
 		
 
 		<div id="content" class="row">
-		<div class="span12">
+		<div class="col-sm-12 col-md-12">
 			<div>
 				<h2>
 					<span>$the_title</span>
@@ -47,8 +47,7 @@ $theme.include($top_head_include)
 
 		<footer id="footer" role="contentinfo">
 			<p class="powered-by">
-				#language("powered-by") <a href="http://www.liferay.com"
-					rel="external">Liferay</a>
+				#language("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a>
 			</p>
 		</footer>
 		</div>
@@ -56,7 +55,7 @@ $theme.include($top_head_include)
 
 	$theme.include($body_bottom_include)
 	<script type="text/javascript"
-		src="$javascript_folder/bootstrap.min.js"></script>
+		src="$javascript_folder/bootstrap_3.min.js"></script>
 		
 </body>
 
